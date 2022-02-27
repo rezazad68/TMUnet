@@ -97,8 +97,8 @@ You can download the learned weights for each task in the following table.
 
 Task | Dataset |Learned weights
 ------------ | -------------|----
-Skin Lesion Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[BCDU_net_D3](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
-Multiple Myeloma Cell Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[BCDU_net_D3](https://drive.google.com/open?id=1EPRC-YmMk0AjHbdjoVy53jlSuweSbAHX)
+Skin Lesion Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[TMUnet](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
+Multiple Myeloma Cell Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[TMUnet](https://drive.google.com/open?id=1EPRC-YmMk0AjHbdjoVy53jlSuweSbAHX)
 
 
 
