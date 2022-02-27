@@ -1,6 +1,7 @@
 # [Contextual Attention Network: Transformer Meets U-Net](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
-Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependancy along with resplendent local informations.. If this code helps with your research please consider citing the following paper:
+Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependancy along with resplendent local informations.
+If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
 ](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", MICCAI, 2022, download [link](https://arxiv.org/pdf/1909.00166.pdf).
@@ -10,16 +11,13 @@ Contexual attention network for medical image segmentation with state of the art
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- July 20, 2020: SEDU model added to the Skin Lesion segmentation code (inside models.py), now you can use this model for higher performance on skin lesion segmentation, inside the train file call the SEDU_Net_D3 model). 
-- March 5, 2020: An extended version of the network has been released(Complete implemenation for [SKin Lesion Segmentation on ISIC 217](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a), [Skin Lesion Segmentation PH2 Dataset](https://www.fc.up.pt/addi/ph2%20database.html) and [cell nuclei]() along with the network implementation will be update soon). 
-- December 4, 2019: Document Image Binarization using BCDU-Net on DIBCO Challenges has been implemented, best performance on DIBCO series [link](https://github.com/rezazad68/BCDUnet_DIBCO)
-- Augest 28, 2019: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 218](https://challenge2018.isic-archive.com/), [Retina Blood Vessel Segmentation](http://www.isi.uu.nl/Research/Databases/DRIVE/) and [Lung segmentation](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) dataset added.)
-- Augest 27, 2019: Paper Accepted in the [ICCV workshop](https://sites.google.com/view/iccv19-vrmi/home?authuser=0]) 2019 (Oral presentation).
+- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge2017.isic-archive.com/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.kaggle.com/synked/ph2-modified) and [multiple myeloma cell segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
+- February 26, 2022: Paper sent to the [MICCAI Conference](https://conferences.miccai.org/2022/en/]) 2022.
 
-This code has been implemented in python language using Keras libarary with tensorflow backend and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
+This code has been implemented in python language using Pytorch library and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
 
 - Python 3
-- Keras - tensorflow backend
+- Pytorch
 
 
 ## Run Demo
