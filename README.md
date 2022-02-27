@@ -68,7 +68,7 @@ Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/ma
 #### SKin Lesion Segmentation segmentation result on test data
 
 ![SKin Lesion Segmentation  result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Skin%20lesion_segmentation.png)
-
+(a) Input images. (b) Ground truth. (c) [U-net](https://arxiv.org/abs/2102.10662). (d) [Gated Axial-Attention](https://arxiv.org/abs/2102.10662). (e) Proposed method without a contextual attention module and (f) Proposed method.
 
 
 ## Multiple Myeloma Cell Segmentation
