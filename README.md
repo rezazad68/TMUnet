@@ -11,8 +11,8 @@ If this code helps with your research please consider citing the following paper
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge2017.isic-archive.com/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.kaggle.com/synked/ph2-modified) and [Multiple Myeloma Cell Segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
-- February 26, 2022: Paper sent to the [MICCAI Conference](https://conferences.miccai.org/2022/en/]) 2022.
+- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge.isic-archive.com/landing/2017/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.kaggle.com/synked/ph2-modified) and [Multiple Myeloma Cell Segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
+- February 26, 2022: Paper sent to the [MICCAI Conference](https://conferences.miccai.org/2022]) 2022.
 
 This code has been implemented in python language using Pytorch library and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
 
