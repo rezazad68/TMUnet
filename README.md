@@ -11,7 +11,7 @@ If this code helps with your research please consider citing the following paper
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge2017.isic-archive.com/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.kaggle.com/synked/ph2-modified) and [multiple myeloma cell segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
+- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge2017.isic-archive.com/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.kaggle.com/synked/ph2-modified) and [Multiple Myeloma Cell Segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
 - February 26, 2022: Paper sent to the [MICCAI Conference](https://conferences.miccai.org/2022/en/]) 2022.
 
 This code has been implemented in python language using Pytorch library and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
@@ -45,11 +45,11 @@ Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset
 ## Results
 For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
 </br>
-#### Task 1: Retinal Blood Vessel Segmentation
+#### Task 1: SKin Lesion Segmentation
 
 
-#### Performance Comparision on Retina Blood Vessel Segmentation
-In order to compare the proposed method with state of the art appraoches on retinal blood vessel segmentation, we considered Drive dataset.  
+#### Performance Comparision on SKin Lesion Segmentation
+In order to compare the proposed method with state of the art appraoches on SKin Lesion Segmentation, we considered Drive dataset.  
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC
 ------------ | -------------|----|-----------------|----|---- |---- 
@@ -65,16 +65,16 @@ Alom  et. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	
 Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.8222**	|**0.8012**	  |0.9784	  |**0.9559**	  |**0.9788**
 
 
-#### Retinal blood vessel segmentation result on test data
+#### SKin Lesion Segmentation segmentation result on test data
 
 ![Retinal Blood Vessel Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_1.png)
 ![Retinal Blood Vessel Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_2.png)
 ![Retinal Blood Vessel Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_3.png)
 
 
-## Skin Lesion Segmentation
+## Multiple Myeloma Cell Segmentation
 
-#### Performance Evalution on the Skin Lesion Segmentation task
+#### Performance Evalution on the Multiple Myeloma Cell Segmentation task
 
 Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | PC | JS 
 ------------ | -------------|----|-----------------|----|---- |---- |---- 
@@ -88,7 +88,7 @@ Azad et. all [MCGU-Net](https://128.84.21.199/pdf/2003.05056.pdf)	  |2020	| **0.
 
 
 
-#### Skin Lesion Segmentation results
+#### Multiple Myeloma Cell Segmentation results
 
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(1).png)
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(2).png)
@@ -96,39 +96,13 @@ Azad et. all [MCGU-Net](https://128.84.21.199/pdf/2003.05056.pdf)	  |2020	| **0.
 ![Skin Lesion Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/1%20(4).png)
 
 
-## Lung Segmentation
-
-#### Performance Evalution on the Lung Segmentation task
-
-Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | AUC | JS 
------------- | -------------|----|-----------------|----|---- |---- |---- 
-Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.9658	|0.9696	  |0.9872	  |0.9872  |0.9784 |0.9858
-Alom  et. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.9638 |0.9734 |0.9866 |0.9836	  |0.9800	  |0.9836
-Alom  et. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.9832	|**0.9944**	  |0.9832	  |0.9918	  |0.9889 | 0.9918
-Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.9904**	|0.9910	  |**0.9982**	  |**0.9972**	  |**0.9946**| **0.9972**
-
-
-
-
-
-#### Lung Segmentation results
-![Lung Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es3.png)
-![Lung Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/es5.png)
-![Lung Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/est2.png)
-
-## Cell Nuclei Segmentation
-#### Cell Nuclei Segmentation results
-![Cell Nuclei Segmentation results](https://github.com/rezazad68/BCDU-Net/blob/master/output_images/Nuclei2.png)
-
-
 ### Model weights
 You can download the learned weights for each task in the following table. 
 
 Task | Dataset |Learned weights
 ------------ | -------------|----
-Retina Blood Vessel Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[BCDU_net_D3](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
-Skin Lesion Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[BCDU_net_D3](https://drive.google.com/open?id=1EPRC-YmMk0AjHbdjoVy53jlSuweSbAHX)
-Lung Segmentation | [Lung kaggle](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) | [BCDU_net_D3](https://drive.google.com/open?id=1pHOntUOdqd0MSz4cHUOHi2Ssn3KBH-fU)
+Skin Lesion Segmentation | [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[BCDU_net_D3](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
+Multiple Myeloma Cell Segmentation | [ISIC2018](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[BCDU_net_D3](https://drive.google.com/open?id=1EPRC-YmMk0AjHbdjoVy53jlSuweSbAHX)
 
 
 
