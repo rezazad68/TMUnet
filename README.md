@@ -1,7 +1,6 @@
 # [Contextual Attention Network: Transformer Meets U-Net](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
-
-Deep auto-encoder-decoder network for medical image segmentation with state of theresults on skin lesion segmentation, lung segmentation, and retinal blood vessel segmentation. This method applies bidirectional convolutional LSTM layers in U-net structure to non-linearly encode both semantic and high-resolution information with non-linearly technique. Furthermore, it applies densely connected convolution layers to include collective knowledge in representation and boost convergence rate with batch normalization layers. If this code helps with your research please consider citing the following papers:
+Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependancy along with resplendent local informations.. If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate),[Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate),[Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
 ](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), " Contextual Attention Network: Transformer Meets U-Net ", MICCAI, 2022, download [link](https://arxiv.org/pdf/1909.00166.pdf).
