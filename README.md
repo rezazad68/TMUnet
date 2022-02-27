@@ -38,7 +38,7 @@ Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Main).png)
 
-### Structure of the Bidirection Convolutional LSTM that used in our network
+### Perceptual visualization of the proposed Contextual Attention module.
 ![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Submodule).png)
 
 
