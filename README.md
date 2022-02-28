@@ -91,6 +91,14 @@ Methods | mIOU
 ![Multiple Myeloma Cell Segmentation result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Cell_segmentation.png)
 
 
+### Ablation Study
+We examine three major determinants of our model on the overall performance of the proposed method. The results are reported on ISIC 2018 dataset.
+![Ablation Study]()
+
+
+
+
+
 ### Model weights
 You can download the learned weights for each task in the following table. 
 
