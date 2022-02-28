@@ -93,7 +93,8 @@ Methods | mIOU
 
 ### Ablation Study
 We examine three major determinants of our model on the overall performance of the proposed method. The results are reported on ISIC 2018 dataset.
-![Ablation Study]()
+
+![Ablation Study](https://github.com/rezazad68/TMUnet/blob/main/Figures/Ablation.PNG)
 
 
 
