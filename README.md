@@ -74,14 +74,15 @@ Azad et. all [Proposed TMUnet](https://github.com/rezazad68/TMUnet/edit/main/REA
 
 #### Performance Evalution on the Multiple Myeloma Cell Segmentation task
 
-Methods | Year |F1-scores | Sensivity| Specificaty| Accuracy | PC | JS 
------------- | -------------|----|-----------------|----|---- |---- |---- 
-Ronneberger and etc. all [U-net](https://arxiv.org/abs/1505.04597)	     	    |2015   | 0.647	|0.708	  |0.964	  |0.890  |0.779 |0.549
-Alom  et. all [Recurrent Residual U-net](https://arxiv.org/abs/1802.06955)	|2018	  | 0.679 |0.792 |0.928 |0.880	  |0.741	  |0.581
-Oktay  et. all [Attention U-net](https://arxiv.org/abs/1804.03999)	|2018	  | 0.665	|0.717	  |0.967	  |0.897	  |0.787 | 0.566 
-Alom  et. all [R2U-Net](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)	        |2018	  | 0.691	|0.726	  |0.971	  |0.904	  |0.822 | 0.592
-Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	  |2019 	| **0.847**	|**0.783**	  |**0.980**	  |**0.936**	  |**0.922**| **0.936**
-Azad et. all [MCGU-Net](https://128.84.21.199/pdf/2003.05056.pdf)	  |2020	| **0.895**	|**0.848**	  |**0.986**	  |**0.955**	  |**0.947**| **0.955**
+Methods | mIOU
+------------ | -------------
+[Frequency recalibration U-Net](https://openaccess.thecvf.com/content/ICCV2021W/CVAMD/papers/Azad_Deep_Frequency_Re-Calibration_U-Net_for_Medical_Image_Segmentation_ICCVW_2021_paper.pdf)	 |0.9392 
+[XLAB Insights](https://arxiv.org/abs/2105.06238)	|0.9360
+[DSC-IITISM](https://arxiv.org/abs/2105.06238)	|0.9356	  
+[Multi-scale attention deeplabv3+](https://arxiv.org/abs/2105.06238)	 |0.9065	  
+[U-Net](https://arxiv.org/abs/1505.04597)	  |0.7665
+[Baseline](https://128.84.21.199/pdf/2003.05056.pdf)	  |0.9172
+[Proposed](https://128.84.21.199/pdf/2003.05056.pdf)	  |**0.9395**
 
 
 
