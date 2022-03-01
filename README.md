@@ -4,7 +4,7 @@ Contexual attention network for medical image segmentation with state of the art
 If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
-](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", MICCAI, 2022, download [link](https://arxiv.org/pdf/1909.00166.pdf).
+](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 
 
@@ -12,7 +12,6 @@ If this code helps with your research please consider citing the following paper
 
 ## Updates
 - February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge.isic-archive.com/landing/2017/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.fc.up.pt/addi/ph2%20database.html) and [Multiple Myeloma Cell Segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
-- February 26, 2022: Paper sent to the [MICCAI Conference](https://conferences.miccai.org/2022/en/) 2022.
 
 This code has been implemented in python language using Pytorch library and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
 
@@ -89,16 +88,6 @@ Methods | mIOU
 #### Multiple Myeloma Cell Segmentation results
 
 ![Multiple Myeloma Cell Segmentation result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Cell_segmentation.png)
-
-
-### Ablation Study
-We examine three major determinants of our model on the overall performance of the proposed method. The results are reported on ISIC 2018 dataset.
-
-![Ablation Study](https://github.com/rezazad68/TMUnet/blob/main/Figures/Ablation.PNG)
-
-
-
-
 
 ### Model weights
 You can download the learned weights for each task in the following table. 
