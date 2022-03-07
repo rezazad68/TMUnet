@@ -4,7 +4,7 @@ Contexual attention network for medical image segmentation with state of the art
 If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
-](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/pdf/1909.00166.pdf).
+](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/abs/2203.01932).
 
 
 
@@ -60,7 +60,7 @@ Asadi et. all [MCGU-Net](https://arxiv.org/abs/2003.05056)   |0.8927	  |	0.8502 
 Valanarasu et. all [MedT](https://arxiv.org/abs/2102.10662)   |0.8037	  |0.8064       |0.9546	  |0.9090
 Wu et. all [FAT-Net](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003728)   |0.8500	  |0.8392  |0.9725	  |0.9326
 Azad et. all [Proposed TMUnet](https://arxiv.org/abs/2203.01932)	  |**0.9164** 	| **0.9128**	|0.9789	  |**0.9660**
-### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper](https://arxiv.org/abs/1505.04597)
+### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper](https://arxiv.org/abs/2203.01932)
 
 
 #### SKin Lesion Segmentation segmentation result on test data
