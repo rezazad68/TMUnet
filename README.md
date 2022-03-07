@@ -1,4 +1,4 @@
-# [Contextual Attention Network: Transformer Meets U-Net](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
+# [Contextual Attention Network: Transformer Meets U-Net](https://arxiv.org/abs/2203.01932)
 
 Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependancy along with resplendent local informations.
 If this code helps with your research please consider citing the following paper:
@@ -59,7 +59,7 @@ Chen et. all [TransU-net](https://arxiv.org/abs/2102.04306)   |0.8123  |0.8263  
 Asadi et. all [MCGU-Net](https://arxiv.org/abs/2003.05056)   |0.8927	  |	0.8502      |**0.9855**	  |0.9570	
 Valanarasu et. all [MedT](https://arxiv.org/abs/2102.10662)   |0.8037	  |0.8064       |0.9546	  |0.9090
 Wu et. all [FAT-Net](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003728)   |0.8500	  |0.8392  |0.9725	  |0.9326
-Azad et. all [Proposed TMUnet](https://github.com/rezazad68/TMUnet/edit/main/README.md)	  |**0.9164** 	| **0.9128**	|0.9789	  |**0.9660**
+Azad et. all [Proposed TMUnet](https://arxiv.org/abs/2203.01932)	  |**0.9164** 	| **0.9128**	|0.9789	  |**0.9660**
 ### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper](https://arxiv.org/abs/1505.04597)
 
 
@@ -80,8 +80,8 @@ Methods | mIOU
 [DSC-IITISM](https://arxiv.org/abs/2105.06238)	|0.9356	  
 [Multi-scale attention deeplabv3+](https://arxiv.org/abs/2105.06238)	 |0.9065	  
 [U-Net](https://arxiv.org/abs/1505.04597)	  |0.7665
-[Baseline](https://128.84.21.199/pdf/2003.05056.pdf)	  |0.9172
-[Proposed](https://128.84.21.199/pdf/2003.05056.pdf)	  |**0.9395**
+[Baseline](https://arxiv.org/abs/2203.01932)	  |0.9172
+[Proposed](https://arxiv.org/abs/2203.01932)	  |**0.9395**
 
 
 
