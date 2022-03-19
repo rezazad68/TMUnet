@@ -6,7 +6,15 @@ If this code helps with your research please consider citing the following paper
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?user=mir8D5UAAAAJ&hl=en&oi=sra), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
 ](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/abs/2203.01932).
 
+```python
+@article{reza2022contextual,
+  title={Contextual Attention Network: Transformer Meets U-Net},
+  author={Reza, Azad and Moein, Heidari and Yuli, Wu and Dorit, Merhof},
+  journal={arXiv preprint arXiv:2203.01932},
+  year={2022}
+}
 
+```
 
 #### Please consider starring us, if you found it useful. Thanks
 
