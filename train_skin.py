@@ -73,7 +73,7 @@ for ep in range(int(config['epochs'])):
         msk_pred, B, R = Net(img, with_additional=True)
         loss          = criteria(msk_pred, msk) 
         loss_regions  = criteria_region(weak_ann[:,0], R[:,:-1,0])
-        loss_boundary = criteria(msk_pred, msk)  
+        loss_boundary = criteria_boundary(B, boundary)  
         tloss    = (0.7*(loss)) + (0.1* loss_regions) + (0.2*loss_boundary)
         optimizer.zero_grad()
         tloss.backward()
